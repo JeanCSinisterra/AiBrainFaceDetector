@@ -7,7 +7,7 @@ You can find out more about the Model used here: [Face Detection Model](https://
 ###### Tech Stack
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 <br>
-![]https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge
+![](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 <br>
 
 ###### Tools used
