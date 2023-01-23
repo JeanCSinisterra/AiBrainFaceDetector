@@ -95,11 +95,11 @@ function App() {
     });
 
     const requestOptions = {
-      method: 'POST',
+      method: "POST",
       headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-        'Authorization': 'Key ' + PAT
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Authorization": "Key " + PAT
       },
       body: raw
     };
