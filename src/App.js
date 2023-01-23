@@ -100,7 +100,7 @@ function App() {
         "Accept": "application/json",
         "Content-Type": "application/json",
         "Authorization": "Key " + PAT
-      },
+      }, 
       body: raw
     };
 
