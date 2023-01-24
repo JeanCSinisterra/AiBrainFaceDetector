@@ -1,8 +1,14 @@
 # Clarifai Face Detection Model
 
-This project was created implementing the face detection model trained by Clarifai using React. API keys are not included in this repository. Project was inspired by React course and my first introduction to React :)
+This project was created implementing the face detection model trained by Clarifai using React. API keys are not included in this repository.
 
 You can find out more about the Model used here: [Face Detection Model](https://clarifai.com/clarifai/main/models/face-detection?utm_source=clarifai&utm_medium=referral)
+
+###### Tech Stack
+![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+<br>
+![](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge)
+<br>
 
 ###### Tools used
 - Clarifai AI (Face Detection Model)

@@ -22,25 +22,6 @@ function App() {
   const [box, setBox] = useState({});
   const [signedIn, setSignedIn] = useState(false);
 
-
-  // const getFaceLocation = (boxData) => { // gets the face location retrieved from the clarifai API
-  //   console.info(JSON.parse(boxData, null, 2).outputs[0].data.regions[0].region_info.bounding_box);
-  //   const clarifaiFace = JSON.parse(boxData, null, 2).outputs[0].data.regions[0].region_info.bounding_box;
-  //   const image = document.getElementById('inputttimage');
-  //   const width = Number(image.width);
-  //   const height = Number(image.height);
-
-  //   console.info(`W:${width} H:${height}`);
-
-  //   return { // returns the top left right bottom positions needed to display the box as an object
-  //     topRow: (clarifaiFace.top_row * height),
-  //     leftCol: (clarifaiFace.left_col * width),
-  //     rightCol: (width - (clarifaiFace.right_col * width)),
-  //     bottomRow: height - (clarifaiFace.bottom_row * height)
-  //   };
-
-  // }
-
   const getFaceLocation = (boxData) => {
     const clarifaiFace = JSON.parse(boxData, null, 2).outputs[0].data.regions[0].region_info.bounding_box;
     const width = inputImageRef.current.width;
@@ -126,7 +107,7 @@ function App() {
           {route === 'home'
         ? <div>
           <ImageLinkForm onInputChange={handleInputChange} onBtnSubmit={onButtonSubmit} />
-          <FaceRecognition imageUrl={imgUrl} box={box} />
+          <FaceRecognition inputImageRef={inputImageRef} imageUrl={imgUrl} box={box} />
         </div>
         : (route === 'signin' ? <SignIn asdad={routeChange} /> : <SignUp asdad={routeChange} />)
       }
